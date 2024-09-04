@@ -12,6 +12,7 @@ class Queue {
 }
 
 //20th
+//count of vowels
 let a = 'Hello World';
 let b = "aeiouAEIOU"
 let count = 0;
@@ -27,6 +28,7 @@ function countVowel(str){
 
 
 //19th
+//second largest
 let arr = [3,5,7,1,6,8,10,15,15];
 function secondLargest(arr){
     let largest = arr[0];
@@ -38,15 +40,17 @@ function secondLargest(arr){
             largest = arr[i];
         } else if (arr[i] > secondLargest) {
             secondLargest = arr[i];
-        } else if(secondLargest==largest){
-            
         }
+        // } else if(secondLargest==largest){
+            
+        // }
     }
     return secondLargest;
 } 
 console.log(secondLargest(arr));
 
 //18th
+//sorting
 let c = [5,1,4,2,8]
 function sort (a){      //bubble sort
     for(let i=0; i<a.length; i++) {
@@ -84,6 +88,7 @@ console.log(sortSelectionSort(c))
 
 
 //17th
+//sum of even
 let d = [1,2,3,4,5,6];
 let sum = 0;
 function evenSum (a){
@@ -97,6 +102,7 @@ function evenSum (a){
 // console.log(evenSum(d))
 
 //16th
+//prime
 let e = 7;
 function isPrime(a){
     if(a<2){
@@ -113,6 +119,7 @@ function isPrime(a){
 
 
 //10th 
+//counting of words
 let s = "this is a sample sentence";
 s = s.trim();
 function wordsCount(a){
@@ -125,6 +132,7 @@ function wordsCount(a){
 
 
 //15th
+///reverse words
 function wordsReverser(string){
     return string.split('').reverse().join('');
 }
